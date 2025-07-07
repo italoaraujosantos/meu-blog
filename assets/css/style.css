@@ -56,7 +56,7 @@ main article {
 
 .menu__lista a:link{
   text-decoration: none;
-  color: blue;
+  color: orangered;
 }
 
 .menu__lista  a:visited {
