@@ -1,0 +1,85 @@
+/* Reset e configurações Baśicas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables para cores*/
+:root {
+  --text-color: #2c3e50;
+  --background-color: #ffffff;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ecf0f1;
+    --background-color: #1a1a1a;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.cabecalho{
+  align-self: flex-start;
+  padding: 1cqw;
+  background-color: rgba(56, 54, 54, 0.87);
+}
+
+main article {
+  padding: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 1rem;
+  display: box;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__lista {
+  padding: 1rem;
+  padding-bottom: 1rem;
+  padding-inline-end: 8rem;
+  list-style-type: none;
+}
+
+.menu__lista a:link{
+  text-decoration: none;
+  color: blue;
+}
+
+.menu__lista  a:visited {
+  text-decoration: none;
+  color: orangered;
+}
+
+.menu__lista  a:hover {
+  text-decoration: none;
+   color: white;
+}
+
+.menu__images_patrocinio {
+  margin: auto;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.rodape p {
+  width: 100%;
+  height: 28px;
+  position: absolute;
+  bottom: 0px; 
+  left: 0px; 
+  text-align: center; 
+}
