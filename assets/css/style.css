@@ -39,8 +39,10 @@ body {
 
 article {
   padding: 0rem;
+  padding-top: 2rem;
   padding-left: 3rem;
   padding-bottom: 1rem;
+  padding-inline-end: 2rem;
   margin: 2rem;
   margin-top: 2rem;
   margin-left: 5rem;
@@ -59,9 +61,9 @@ article {
 
 .menu__lista {
   padding: 3.25rem;
-  
   width: max-content;
   list-style-type: none;
+   align-items: center;
 }
 
 .menu__lista a:link{
